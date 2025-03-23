@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <circle cx="7.5" cy="7.5" r="7.34" style="fill: #022f40;"/>
+  <g>
+    <circle cx="6.86" cy="8.33" r="2.28" style="fill: none; stroke: #f9f9fa; stroke-miterlimit: 10; stroke-width: .39px;"/>
+    <g>
+      <line x1="8.24" y1="6.56" x2="10.26" y2="4.54" style="fill: none; stroke: #f9f9fa; stroke-miterlimit: 10; stroke-width: .36px;"/>
+      <path d="M7.92,4.78c.83-.12,1.65-.25,2.48-.37-.13,.82-.26,1.64-.38,2.46" style="fill: none; stroke: #f9f9fa; stroke-miterlimit: 10; stroke-width: .36px;"/>
+    </g>
+  </g>
+</svg>

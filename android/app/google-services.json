@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "105548360825",
+    "project_id": "arrowspeed-67e93",
+    "storage_bucket": "arrowspeed-67e93.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105548360825:android:511811e6ccb60c74caf8a8",
+        "android_client_info": {
+          "package_name": "com.example.arrowspeed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR824w7W8Z3EpXHSxzq7uKRZ0rD6HvrDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

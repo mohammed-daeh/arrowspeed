@@ -1,0 +1,126 @@
+name: arrowspeed
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  icons_launcher: ^3.0.0
+
+  http: ^1.3.0
+  get: ^4.6.6
+  shared_preferences: ^2.2.0
+  flutter_svg: ^2.0.17
+  google_maps_flutter: ^2.2.0
+  intl: ^0.19.0
+  flutter_multi_formatter: ^2.11.5
+  # intl_phone_number_input: 
+  # reactive_forms: ^17.0.1
+  # reactive_phone_form_field: ^4.0.0
+  pin_code_fields: ^8.0.1
+  url_launcher: ^6.0.0
+  flutter_custom_tabs: ^2.1.0
+  fluttertoast: ^8.0.9
+  path_drawing: ^1.0.1
+
+  geolocator: 
+  dotted_line: ^3.2.3
+  awesome_notifications: ^0.10.0
+  qr_flutter: ^4.1.0  
+  encrypt: ^5.0.0  
+  barcode: ^2.2.3  
+  barcode_widget: ^2.0.3  
+  pdf: ^3.10.8
+  path:
+  path_provider: ^2.1.2
+  image_picker: ^1.1.2
+  screenshot: ^3.0.0
+  open_file: ^3.3.2
+  permission_handler: ^11.4.0
+  share_plus: ^10.1.4
+
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+
+  onesignal_flutter:
+
+  cloud_functions: ^5.3.4
+  fl_chart: ^0.71.0
+  lottie: ^3.3.1
+  bot_toast: ^4.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logo/
+    - assets/animations/
+    - assets/translations.json
+
+
+
+  fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Zain
+      fonts:
+        - asset: assets/fonts/Zain-Light.ttf
+          # weight: 700
+        - asset: assets/fonts/Zain-ExtraLight.ttf
+          # weight: 700
+        - asset: assets/fonts/Zain-Regular.ttf
+          # weight: 700
+        - asset: assets/fonts/Zain-Black.ttf
+          # weight: 700
+        - asset: assets/fonts/Zain-Bold.ttf
+          # weight: 700
+# icons_launcher:
+#   image_path: "assets/logo/logo_color.png"
+#   platforms:
+#     android:
+#       enable: true
+#     web:
+#       enable: true 
+icons_launcher:
+  image_path: "assets/logo/logo_color.png"  # مسار صورة الأيقونة
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+    web:
+      enable: true
+      favicon_path: "assets/logo/logo_color.png"  # أيقونة Favicon للويب
+    windows:
+      enable: true
+    macos:
+      enable: true
+    linux:
+      enable: true
